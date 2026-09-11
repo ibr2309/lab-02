@@ -5,7 +5,7 @@
 - **CCID:** `<ishaikh1>`
 
 ## References and Resources
-CMPUT 301 Lab slides
+2026-Lab-2-ListyCity-Instructions.pdf
 
 ## Verbal Collaboration
 NA
