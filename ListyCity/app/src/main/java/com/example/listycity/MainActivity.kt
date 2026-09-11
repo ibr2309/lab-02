@@ -60,7 +60,6 @@ fun CityListScreen(
 ) {
     var newCityName by remember { mutableStateOf("") }
     var isAdding by remember { mutableStateOf(false) }
-
     Column(modifier = modifier.fillMaxSize()) {
         Row(modifier = Modifier.padding(16.dp)) {
             Button(onClick = {
@@ -77,9 +76,7 @@ fun CityListScreen(
                     label = { Text("City name") },
                     modifier = Modifier.weight(1f)
                 )
-
                 Spacer(modifier = Modifier.width(8.dp))
-
                 Button(onClick = {
                     if (newCityName.isNotBlank()) {
                         onAddCity(newCityName)
@@ -123,10 +120,8 @@ class CityRepository {
         "Tokyo", "Beijing", "Osaka",
         "New Delhi"
     )
-
     val cities: List<String>
         get() = _cities
-
     fun addCity(city: String) {
         _cities.add(city)
     }
