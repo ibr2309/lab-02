@@ -9,7 +9,7 @@
 
 I used Claude (Anthropic) extensively for this assignment.
 
-**How i used Claude :** Helped in structure out the idea and writing code in all Kotlin source files, the Gradle
+**How i used Claude :** Helped in structure out the idea of the program and writing code in all Kotlin source files, the Gradle
 build files, `AndroidManifest.xml`, string resources and the responsibility notes for the UML class diagram.
 
 
