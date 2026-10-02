@@ -9,9 +9,8 @@
 
 I used Claude (Anthropic) extensively for this assignment (chat session 2026-10-01 to 2026-10-02).
 
-**What Claude did:** Helped me structure out the codebase and writing code in all Kotlin source files (`MainActivity`, `App`, `StartScreen`,
-`GameScreen`, `LogScreen`, `SummaryScreen`, `SequenceGame`, `AttemptLog`, `Attempt`), the Gradle
-build files, `AndroidManifest.xml`, string resources, the responsibility notes for the UML class diagram.
+**What Claude did:** Helped in structure out the idea and writing code in all Kotlin source files, the Gradle
+build files, `AndroidManifest.xml`, string resources and the responsibility notes for the UML class diagram.
 
 **What I did:** Built and ran the project in Android Studio, fixed project setup issues, manually
 tested every required behaviour against the spec, asked Claude to explain whereever i was stuck.
